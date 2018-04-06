@@ -1,0 +1,11 @@
+<li class="list-group-item">
+  <img [src]="message.avatar" class="avatar"/>
+  <div class="message">
+    {{message.content}}
+    <br>
+    <div class="timeform">
+      <i class="far fa-clock" aria-hidden="true"></i> <span class="timestamp">at {{message.timestamp | date : 'dd/MM/yyyy' }}</span>
+    </div>
+  </div> 
+  <br>
+</li>

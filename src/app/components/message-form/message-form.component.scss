@@ -1,0 +1,17 @@
+.chatcontrol{
+  float: left;
+  width: 100%;
+
+  .chatinput{
+    width: 70%;
+    float: left;
+    border-radius: 0;
+  }
+
+  .sendbtn{
+    width: 30%;
+    float: left;
+    border-radius: 0;
+    text-transform: uppercase;
+  }
+}
